@@ -1,5 +1,5 @@
 # Use-Case Specification: Profil
-## 1.Create workout
+## 1.Create profil
 ### 1.1 Brief Description
 (tbd)
 ### 1.2 Mockup
