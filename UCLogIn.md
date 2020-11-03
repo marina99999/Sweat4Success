@@ -3,7 +3,7 @@
 ### 1.1 Brief Description
 A registered User needs to be able to log into his account to use all functions including special recommended workouts and tracking their own workouts.
 ### 1.2 Mockup
-https://github.com/ThSilv3r/Sweat4Success/blob/master/UC/UCCreateAcount.md
+https://github.com/ThSilv3r/Sweat4Success/blob/Nils/UC/Untitled%20Diagram.drawio
 ### 1.3 Screenshot
 TBD
 ## 2. Flow of Events
