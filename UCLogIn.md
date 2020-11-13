@@ -11,17 +11,38 @@ A registered User needs to be able to log into his account to use all functions 
 ### 2.1 Basic Flow
 tbd
 ### 2.2 Narative
-    tbd
+    feature: Login
+
+  The User can login
+
+  Scenario: Login successful
+  Given The user enters username and password
+  And The username is known
+  And The password is correct
+  Then The User is logged in
+  And The User <Home>-page is displayed
+
 ### 2.3 Alternative Flows
-(n/a)
+Scenario: Password incorrect
+  Given The user enters username and password
+  And The username is known
+  And The password is incorrect
+  Then Error Message is shown
+
+  Scenario: User does not exist
+  Given The user enters username and password
+  And The username is unknown
+  Then Error Message is shown
+  
 ## 3 Special Requirements
 (n/a)
 ## 4 Preconditions
-The main preconditions for this use case are:
-
-The user started the app and doesn't have an acount
+The user opened the app and already has an account.
 
 ## 5 Postconditions
-The acount must be saved in the database.
+The user is directed into his account.
+The user sees the account home page.
+Account data must be loaded from the database.
+
 ## 6 Extension Points
-(tbd)
+n/a
