@@ -5,7 +5,7 @@ A registered User needs to be able to log into his account to use all functions 
 ### 1.2 Mockup
 ![](https://github.com/ThSilv3r/Sweat4Success/blob/Nils/UC/pictures/Untitled%20Diagram.png)
 ### 1.3 Screenshot
-TBD
+![](https://github.com/ThSilv3r/Sweat4Success/blob/Nils/UC/pictures/Login%20Screen.png)
 ## 2. Flow of Events
 
 ### 2.1 Basic Flow
