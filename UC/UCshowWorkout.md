@@ -11,10 +11,10 @@ This use case describes the process of showing a workout (CRUD).
 Activity Diagram
 ### 2.2 Narative
       Scenario: show a workout
-Given: The user is logged in
-And: The user has opened List of Workouts
-And: The user clicks on one workout
-Then: This workout should opened
+      Given: The user is logged in
+      And: The user has opened List of Workouts
+      And: The user clicks on one workout
+      Then: This workout should opened
 ### 2.3 Alternative Flows
 (n/a)
 ## 3 Special Requirements
